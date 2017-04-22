@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="#000"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfdfdf"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="130dp">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24dp"
+            android:gravity="center_vertical"
+            android:text="用户名:"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/ac_login_userName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="48dp"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24dp"
+            android:gravity="center_vertical"
+            android:text="密码:"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/ac_login_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="48dp"
+            android:inputType="textPassword"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:id="@+id/ac_login_login"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="12dp"
+            android:layout_weight="1"
+            android:text="登录"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:background="@color/orange_500"
+            />
+
+        <Button
+            android:id="@+id/ac_login_register"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:text="注册"
+            android:background="@color/orange_500"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

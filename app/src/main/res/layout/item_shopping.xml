@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="270dp"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/item_shopping_img"
+                android:layout_width="176dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp"
+                android:src="#e1d319"
+                />
+
+            <LinearLayout
+                android:layout_width="176dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/item_shopping_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="Apple iphone6s Pluse 16g"
+                    />
+
+                <TextView
+                    android:id="@+id/item_shopping_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="￥6007.00"
+                    android:textColor="#FF0000"
+                    android:textSize="16sp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

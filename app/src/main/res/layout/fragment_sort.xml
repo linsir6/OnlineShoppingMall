@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="分类"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfdfdf"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioGroup
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="13"
+            android:background="#FFF"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/fr_sort_radioButton1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="true"
+                android:text="安卓手机"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dfdfdf"
+                />
+
+            <RadioButton
+                android:id="@+id/fr_sort_radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="iPhone"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dfdfdf"
+                />
+
+            <RadioButton
+                android:id="@+id/fr_sort_radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="充电宝"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dfdfdf"
+                />
+
+            <RadioButton
+                android:id="@+id/fr_sort_radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="笔记本电脑"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dfdfdf"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#dfdfdf"
+            />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:background="#FFF"
+            android:id="@+id/fr_sort_recyclerView2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="30">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
